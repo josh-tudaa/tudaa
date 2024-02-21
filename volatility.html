@@ -46,7 +46,7 @@ permalink: "volatility"
 							<button
 								type="button"
 								class="relative inline-flex items-center px-3 py-2 text-sm font-medium text-gray-700 rounded-l-md ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-10"
-								x-bind:class="activeTimeFrame == '1D' ? 'bg-gray-300' : 'bg-white'"
+								x-bind:class="activeTimeFrame == '21D' ? 'bg-gray-300' : 'bg-white'"
 								x-on:click="setActiveTimeFrame('21D')"
 							>
 								21D
@@ -55,7 +55,7 @@ permalink: "volatility"
 							<button
 								type="button"
 								class="relative inline-flex items-center px-3 py-2 -ml-px text-sm font-medium text-gray-700 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-10"
-								x-bind:class="activeTimeFrame == '1M' ? 'bg-gray-300' : 'bg-white'"
+								x-bind:class="activeTimeFrame == '45D' ? 'bg-gray-300' : 'bg-white'"
 								x-on:click="setActiveTimeFrame('45D')"
 							>
 								45D
